@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-phones-and-mobiles';
 render() {
     return (
         <>
-          <Icon name="004-4g" />
-          <Icon name="005-4g plus" height="40" width="40" />
-          <Icon name="006-4g" color="red" />
+          <Icon name="4g" />
+          <Icon name="4g plus" height="40" width="40" />
+          <Icon name="4g" color="red" />
         </>
     );
 }
@@ -61,7 +61,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "004-4g"
+name | no |  | name of file | "4g"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
