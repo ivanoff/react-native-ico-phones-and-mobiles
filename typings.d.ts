@@ -1,5 +1,6 @@
 declare module 'react-native-ico-phones-and-mobiles' {
     import { ReactNode } from 'react';
+    import { SvgProps, AdditionalProps } from 'react-native-svg';
 
     type iconNames = '3g' |
       '3g' |
@@ -153,7 +154,7 @@ declare module 'react-native-ico-phones-and-mobiles' {
       badge?: number | string | badgeTypeObj;
     }
 
-    const Icon: (props: IconProps) => ReactNode;
+    const Icon: (props: IconProps & SvgProps & AdditionalProps) => ReactNode;
 
     export { iconNames };
     export default Icon;
